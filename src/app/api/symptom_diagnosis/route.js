@@ -3,7 +3,7 @@ import axios from "axios";
 
 // Google Gemini API Endpoint
 const GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent";
-const API_KEY = process.env.NEXT_PUBLIC_GEMINI_API_KEY;
+const API_KEY = AIzaSyC3dp77y-3aTST9RJTuqZKtLHAAWvr052M;
 
 export async function POST(req) {
   try {
