@@ -24,7 +24,8 @@ export default function Navbar() {
         {user?.role === "patient" ? (
           <>
             <Link href="/patientDetails"><Button variant="outline">My Details</Button></Link>
-            <Link href="/searchDoctors"><Button variant="outline">Search Docs</Button></Link>
+            <Link href="/searchDoctors"><Button variant="outline">Search Docs</Button></Link>  
+            <Link href="/chatbot"><Button variant="outline">AI Doctor</Button></Link>
             <Link href="/aiDiagnosis"><Button variant="outline">AI Diagnosis</Button></Link>
           </>
         ) : user?.role === "doctor" ? (
